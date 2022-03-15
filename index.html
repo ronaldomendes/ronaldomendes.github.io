@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,44 +10,93 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <style type="text/css">
-    	.logo {max-height: 200px; margin-top: 80px;}
-    	.socialMedia{max-height: 50px; /*margin-top: -15px;*/}
-    	body {font-family: 'Ubuntu', sans-serif;}
-    	p {font-size: 1.4em;}
-    	.espaco {margin-top: 20px;}
-    </style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<style type="text/css">
+		.logo {max-height: 150px; /*margin-top: 80px;*/}
+		.socialMedia {max-height: 40px; /*margin-top: -15px;*/}
+		body {font-family: 'Ubuntu', sans-serif;}
+		.textSize, ul li {font-size: 20px;}
+		.espaco {margin-top: 20px;}
+		.recuar {margin-top: -5px;}
+		.justified {text-align: justify;}
+		.customNav {padding: 5px !important;}
+	</style>
 </head>
+
 <body class="blue-grey lighten-3">
-	<div class="card-panel indigo darken-4">
+	<div class="card-panel indigo darken-4 recuar customNav">
 		<h1 class="white-text center-align">Seja bem vindo ao meu portfólio</h1>
 	</div>
-	<div class="row container">
-		<div class="col s4 m2 l2">
-			<img src="img/43147698.jpg" alt="Minha imagem" class="logo responsive-img circle">
+
+	<div class="espaco">
+		<div class="row">
+			<div class="col s4 m4 l4 blue-grey lighten-3">
+				<p class="center-align">
+					<img src="img/43147698.jpg" alt="Minha imagem" class="logo responsive-img circle center-align">
+				</p>
+				<h5 class="center-align">Ronaldo Mendes</h5>
+				<p class="center-align recuar textSize">Desenvolvedor</p>
+				<p class="center-align">
+					<a href="https://www.linkedin.com/in/ronaldo-mendes-da-silva-b3382511a/" target="_blank">
+						<img class="socialMedia" src="img/linkedin.png" alt="LinkedIn" title="LinkedIn"></a>
+					<a href="https://github.com/ronaldomendes" target="_blank">
+						<img class="socialMedia" src="img/github-logo.png" alt="Github" title="Github"></a>
+					<a href="https://pt.stackoverflow.com/users/132627/ronaldo-mendes" target="_blank">
+						<img class="socialMedia" src="img/stack-overflow.png" alt="Stack Overflow"
+							title="Stack Overflow"></a>
+				</p>
+				<div class="container center-align">
+					<p class="textSize">Matéria sobre o Projeto Acessa no portal do Senac São Paulo, divulgada em
+						05/08/2019.</p>
+					<p>
+						<a href="https://www.sp.senac.br/jsp/default.jsp?newsID=a25221.htm&subTab=00000&&local=&testeira=2092"
+							target="_blank">
+							<img class="socialMedia" src="img/senac-logo-3.png" alt="Logo Senac"
+								title="Matéria no Portal do Senac São Paulo">
+						</a>
+					</p>
+				</div>
+			</div>
+			<div class="col s7 m7 l7 justified textSize">
+				<p>
+					Olá, meu nome é Ronaldo Mendes!
+				</p>
+				<p>
+					Atualmente, sou <b>Desenvolvedor Java</b> e aluno do curso de <b>Bacharelado em Engenharia da Computação</b>.
+				</p>
+				<p>
+					Tornei-me um apaixonado por programação e desde 2018 procuro me aperfeiçoar cada vez mais.
+				</p>
+				<p>
+					Sou formado no curso <b>Técnico em Desenvolvimento de Sistemas</b> pela ETEC Albert Einstein e
+					concluí os módulos de Hardware e Redes
+					no curso <b>Técnico em Informática</b> pelo Senac Santana.
+				</p>
+				<p>
+					Durante este período, já tive contato com linguagens como: <b>C#</b>, <b>Java</b>,
+					<b>JavaScript</b>, <b>PHP</b> e <b>Python</b>.
+					Também tive contato com os bancos de dados: <b>MongoDB</b>, <b>MySQL</b>. <b>PostgreSQL</b> e <b>SQL Server</b>.
+				</p>
+				<p>
+					Para saber um pouco mais sobre mim e sobre o que eu já fiz, clique nos links ao lado.
+				</p>
+			</div>
 		</div>
-		<div class="espaco col s8 m10 l10">
-			<p class="left-align">Olá, meu nome é Ronaldo Mendes!</p> 
-			<p class="left-align">
-			Atualmente, sou estudante nos cursos de Técnico em Desenvolvimento de Sistemas e Técnico em Informática. Além disso, sempre estou antenado no universo Linux.</p>
-			<p class="left-align">
-			Para saber um pouco mais sobre mim e sobre o que eu já fiz, clique nos links abaixo.</p>
-		</div>
-	</div>
-	<div class="center">
-		<p>
-			<a href="https://www.linkedin.com/in/ronaldo-mendes-da-silva-b3382511a/" target="_blank">
-				<img class="socialMedia" src="img/linkedin.png" alt="LinkedIn" title="LinkedIn"></a>
-			<a href="https://github.com/ronaldomendes" target="_blank">
-				<img class="socialMedia" src="img/github-logo.png" alt="Github" title="Github"></a>
-			<a href="https://projetoacessa.000webhostapp.com/" target="_blank">
-				<img class="socialMedia" src="img/wordpress-logo-button.png" alt="Projeto Acessa" title="Projeto Acessa - Wordpress"></a>
-		</p>
 	</div>
 
+	<footer class="page-footer blue-grey lighten-3">
+		<div class="footer-copyright indigo darken-4">
+			<div class="container">
+				<p class="right-align">&copy; <span id="ano"></span> - Todos os direitos reservados</p>
+			</div>
+		</div>
+	</footer>
+
 	<!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+		document.querySelector('#ano').innerHTML = new Date().getFullYear();
+	</script>
 
 </body>
 </html>
